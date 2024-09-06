@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Upper Lower</title>
+        <style>
+
+div.gallery {
+  margin: 40px 50px 0px 50px;
+  border: 2px solid white;
+  float:left;
+  width: 180px;
+  padding: 50px;
+  box-shadow: 4px 4px 40px 10px rgba(0,0,0,0.5);
+  
+}
+
+div.gallery:hover {
+  border: 7px solid orange;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+.column{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    padding: 7px;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear:both;
+
+}
+body {
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("3e51d1c28ec304ed906653215a8e5f5d.jpg");
+}
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="row">
+        <div class="gallery">
+            <div class="column">
+
+            <a target="_blank" href="./upper.html">
+              <img src="./upper .png" alt="upper" width="600" height="400">
+            </a>
+            <div class="desc"><h3>Day One : Upper</h3></div>
+           
+          
+          </div>
+          </div>
+        
+          
+          
+          <div class="gallery">
+            <div class="column">
+            <a target="_blank" href="./lower.html">
+              <img src="./lower.png" alt="lower" width="600" height="400">
+            </a>
+            <div class="desc"><h3>Day Two : Lower</h3></div>
+          </div>
+          </div>
+          
+          
+          
+         
+
+
+
+
+
+
+    </body>
+</html>
